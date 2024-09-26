@@ -14,9 +14,13 @@ flytekit branch: https://github.com/flyteorg/flytekit/pull/2760
 
 ## Golang Version
 go: 1.22.0 darwin/arm64
-
 flyte branch: https://github.com/flyteorg/flyte/pull/5776
 
+## Deployed MSGPACK Workflow on Union
+[code](./union_workflow.py)
+
+MSGPACK IDL workflow on Union: 
+https://dogfood-gcp.cloud-staging.union.ai/console/projects/flytesnacks/domains/development/executions/attcxwwnjx8gcjhwpcmr/nodes
 
 ## Show on Flyte Console
 

@@ -2,14 +2,17 @@
 
 ## Javscript Version
 npm: 10.7.0
+
 Node.js: v18.20.4
 
 ## Python Version
 python: 3.12.4 
+
 flytekit branch: https://github.com/flyteorg/flytekit/pull/2760
 
 ## Golang Version
 go: 1.22.0 darwin/arm64
+
 flyte branch: https://github.com/flyteorg/flyte/pull/5776
 
 

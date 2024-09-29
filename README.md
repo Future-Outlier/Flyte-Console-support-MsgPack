@@ -25,7 +25,8 @@ flyte branch: https://github.com/flyteorg/flyte/pull/5776
 [code](./union_workflow.py)
 
 MSGPACK IDL workflow on Union: 
-https://dogfood-gcp.cloud-staging.union.ai/console/projects/flytesnacks/domains/development/executions/attcxwwnjx8gcjhwpcmr/nodes
+dogfood gcp: https://dogfood-gcp.cloud-staging.union.ai/console/projects/flytesnacks/domains/development/executions/attcxwwnjx8gcjhwpcmr/nodes
+dogfood: https://dogfood.cloud-staging.union.ai/console/projects/flytesnacks/domains/development/executions/acj8vfbt8722wg4q46nv/nodeId/n0/nodes
 
 ## Show on Flyte Console
 

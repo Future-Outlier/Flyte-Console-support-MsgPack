@@ -1,8 +1,8 @@
 import fs from 'fs';
-import msgpack5 from 'msgpack5';
+import { encode, decode } from '@msgpack/msgpack';
 
 // Create a MessagePack instance
-const msgpack = msgpack5();
+// const msgpack = msgpack5();
 
 // Read the file that contains the msgpack bytes
 fs.readFile('./python_msgpack_bytes', (err, data) => {
@@ -12,7 +12,7 @@ fs.readFile('./python_msgpack_bytes', (err, data) => {
     }
 
     // Decode the data
-    const decodedData = msgpack.decode(data);
+    const decodedData = decode(data);
 
     // Print the decoded data
     console.log("Decoded Data:", decodedData);

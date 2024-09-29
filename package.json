@@ -1,6 +1,7 @@
 {
   "type": "module",
   "dependencies": {
+    "@msgpack/msgpack": "^3.0.0-beta2",
     "msgpack5": "^6.0.2"
   }
 }
